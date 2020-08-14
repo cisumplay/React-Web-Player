@@ -1,0 +1,40 @@
+.container {
+  background: #dee9fd;
+  height: 100vh;
+  padding-top: 35px;
+}
+.topcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.topcontainer-button {
+  border-radius: 50%;
+  background: #dee9fd;
+  box-shadow: -6px 6px 12px #a4acbb, 6px -6px 12px #ffffff;
+}
+
+.detailcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 5%;
+  color: #6c7a93;
+  font-weight: 600;
+}
+
+.artist {
+  font-size: 14px;
+  color: #91a1bd;
+  font-weight: 500;
+}
