@@ -45,18 +45,29 @@ export default class CurrentSong extends React.Component {
           </div>
         </div>
         <div className={"detailcontainer"}>
-          <div>
-            <img
-              src={kuhad}
+          <div className={"image-cover"}>
+            <div
               style={{
-                width: "70%",
+                width: 300,
+                height: 300,
+                padding: 10,
                 borderRadius: "50%",
-                borderWidth: 1,
-                borderColor: "#D7E1F3",
+                textAlign: "center",
               }}
-              alt={"Song cover"}
-            />
+            >
+              <img
+                src={kuhad}
+                style={{
+                  width: "100%",
+                  borderRadius: "50%",
+                  borderWidth: 1,
+                  borderColor: "#D7E1F3",
+                }}
+                alt={"Song cover"}
+              />
+            </div>
           </div>
+
           <div>
             <div className={"title"}>Dil Beparvah</div>
             <div className={"artist"}>Prateek Kuhad, Ankur Tewari</div>
@@ -68,43 +79,44 @@ export default class CurrentSong extends React.Component {
             <div className={"topcontainer-button"}>
               <div
                 style={{
-                  width: 60,
-                  height: 60,
+                  width: 80,
+                  height: 80,
                   padding: 10,
-                  paddingTop: 17,
+                  paddingTop: "32%",
                   borderRadius: "50%",
                   textAlign: "center",
                 }}
               >
-                <FaStepBackward size={20} color={gray} />
+                <FaStepBackward size={24} color={gray} />
               </div>
             </div>
             <div className={"topcontainer-button"}>
               <div
                 style={{
-                  width: 60,
-                  height: 60,
+                  width: 80,
+                  height: 80,
                   padding: 10,
-                  paddingTop: 17,
+                  paddingTop: "32%",
                   borderRadius: "50%",
                   textAlign: "center",
+                  backgroundColor: "#8AAAFF",
                 }}
               >
-                <FaPlay size={20} color={gray} />
+                <FaPlay size={24} color={"#ffffff"} />
               </div>
             </div>
             <div className={"topcontainer-button"}>
               <div
                 style={{
-                  width: 60,
-                  height: 60,
+                  width: 80,
+                  height: 80,
                   padding: 10,
-                  paddingTop: 17,
+                  paddingTop: "32%",
                   borderRadius: "50%",
                   textAlign: "center",
                 }}
               >
-                <FaStepForward size={20} color={gray} />
+                <FaStepForward size={24} color={gray} />
               </div>
             </div>
           </div>
