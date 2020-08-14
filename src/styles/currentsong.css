@@ -38,3 +38,17 @@
   color: #91a1bd;
   font-weight: 500;
 }
+
+.controlcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  justify-content: center;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
